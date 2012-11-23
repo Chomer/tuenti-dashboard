@@ -1,0 +1,28 @@
+.widget-instagram { 
+	padding: 0 !important;
+
+	.clearfix { margin: 0 20px 0 0 }
+	.itm-media { position: relative; z-index: 1; }
+	.itm-body { margin: 25px 0; }
+
+		.name {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			line-height: 1;
+			color: rgba(0,0,0,.5);
+		}
+		.text {
+			margin-top: 25px;
+			width: 254px;
+			max-height: 200px;
+			overflow: hidden; 
+			word-wrap: break-word;
+		}
+		.more-info {
+			font-size: 14px;
+			left: 300px;
+			bottom: 15px;
+			color: rgba(255,255,255,.5);
+		}
+}
