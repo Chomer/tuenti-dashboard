@@ -1,0 +1,56 @@
+<% content_for(:title) { "Tuenti dashboard" } %>
+<div class="gridster">
+  <ul>
+  
+    <li class="tuenti-logo-container" data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div class="tuenti-logo">Tuenti</div>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Clock"></div>
+      <i class="icon-time icon-background"></i>
+    </li>
+  
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation" data-view="Number" data-title="Chat messages" data-moreinfo="PR0"></div>
+      <i class="icon-comments icon-background"></i>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation" data-view="Number" data-title="Chat messages" data-moreinfo="CUPCAKE"></div>
+      <i class="icon-comments icon-background"></i>
+    </li>
+  
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Hello" data-text="This is customizable!" data-moreinfo="Try this: curl -d '{ &quot;auth_token&quot;: &quot;tuentibcn&quot;, &quot;text&quot;: &quot;Hey, Look what I can do!&quot; }' \http://<%=request.host%>:<%=request.port%>/widgets/welcome">
+      
+      </div>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation" data-view="Number" data-title="Youtube plays" data-moreinfo="PR0"></div>
+      <i class="icon-play-circle icon-background"></i>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation" data-view="Number" data-title="Youtube plays" data-moreinfo="CUPCAKE"></div>
+      <i class="icon-play-circle icon-background"></i>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="twitter_mentions" data-view="Comments" style="background-color:#ff9618;" data-moreinfo="Tweets tagged with #tuenti"></div>
+      <i class="icon-twitter icon-background"></i>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation" data-view="Number" data-title="Profile Views" data-moreinfo="PR0"></div>
+      <i class="icon-bar-chart icon-background"></i>
+    </li>
+    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="valuation" data-view="Number" data-title="Profile Views" data-moreinfo="CUPCAKE"></div>
+      <i class="icon-bar-chart icon-background"></i>
+    </li>
+    
+  </ul>
+</div>
