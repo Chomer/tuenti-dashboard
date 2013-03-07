@@ -3,6 +3,8 @@ class Dashing.Number extends Dashing.Widget
 
   @accessor 'difference', ->
     if @get('last')
+      console.log "last: "+@get('last')
+      console.log "current: "+@get('current')
       last = parseInt(@get('last'))
       current = parseInt(@get('current'))
       if last != 0
@@ -16,5 +18,6 @@ class Dashing.Number extends Dashing.Widget
       if parseInt(@get('current')) > parseInt(@get('last')) then 'icon-arrow-up' else 'icon-arrow-down'
 
   onData: (data) ->
+    console.log data.status
     if data.status
       $(@get('node')).addClass("status-#{data.status}")
