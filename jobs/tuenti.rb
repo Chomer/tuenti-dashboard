@@ -1,5 +1,7 @@
 require 'net/http'
 require 'json'
+require "net/https"
+require "uri"
 
 SCHEDULER.every '10m', :first_in => 0 do |job|
 	uri = URI.parse("http://10.222.0.2/desktop/growth/cupcake_kpi_global_dashboard.json")
