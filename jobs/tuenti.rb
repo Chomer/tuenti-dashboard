@@ -3,6 +3,9 @@ require 'json'
 require "net/https"
 require "uri"
 
+current_n_chats_pr0_1day = 0
+current_n_chats_cup_1day = 0
+
 SCHEDULER.every '10s', :first_in => 0 do |job|
 	uri = URI.parse("http://10.222.0.2/desktop/growth/cupcake_kpi_global_dashboard.json")
 
@@ -18,6 +21,6 @@ SCHEDULER.every '10s', :first_in => 0 do |job|
 	current_n_chats_cup_1day = data.chat_messages_cup_1day
 
   send_event('n_chats_pr0_1day', { current: current_n_chats_pr0_1day, last: last_n_chats_pr0_1day })
-  send_event('n_chats_cup_1day', { current: current_n_chats_cup_1day, last: last_n_chats_cup_1day })
+  #send_event('n_chats_cup_1day', { current: current_n_chats_cup_1day, last: last_n_chats_cup_1day })
 
 end
