@@ -18,6 +18,7 @@ class Dashing.Number extends Dashing.Widget
       if parseInt(@get('current')) > parseInt(@get('last')) then 'icon-arrow-up' else 'icon-arrow-down'
 
   onData: (data) ->
+    debugger
     console.log data.status
     if data.status
       $(@get('node')).addClass("status-#{data.status}")
