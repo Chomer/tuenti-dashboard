@@ -1,9 +1,9 @@
-.widget-instagram { 
+.widget-instagram {
 	padding: 0 !important;
 
 	.clearfix { margin: 0 20px 0 0 }
 	.itm-media { position: relative; z-index: 1; }
-	.itm-body { margin: 25px 0; }
+	.itm-body { padding: 25px 0; }
 
 		.name {
 			position: absolute;
@@ -16,7 +16,7 @@
 			margin-top: 25px;
 			width: 254px;
 			max-height: 200px;
-			overflow: hidden; 
+			overflow: hidden;
 			word-wrap: break-word;
 		}
 		.more-info {
