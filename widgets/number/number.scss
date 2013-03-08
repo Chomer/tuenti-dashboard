@@ -4,21 +4,21 @@
 $background-color:  #47bbb3;
 $value-color:       #fff;
 
-$title-color:       rgba(255, 255, 255, 0.7);;
-$moreinfo-color:    rgba(255, 255, 255, 0.7);;
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
 
 // ----------------------------------------------------------------------------
 // Widget-number styles
 // ----------------------------------------------------------------------------
-.widget-number { 
+.widget-number {
 
   // background-color: $background-color;
   background: rgb(111, 176, 74);
   background: -webkit-linear-gradient(rgb(126, 196, 86), rgb(100, 161, 65));
   background:    -moz-linear-gradient(rgb(126, 196, 86), rgb(100, 161, 65));
   background:         linear-gradient(rgb(126, 196, 86), rgb(100, 161, 65));
-  
-  .title { 
+
+  .title {
     color: $title-color;
   }
 
@@ -39,5 +39,5 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);;
   .updated-at {
     color: rgba(0, 0, 0, 0.3);
   }
-  
+
 }
