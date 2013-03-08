@@ -18,6 +18,13 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   background:    -moz-linear-gradient(rgb(126, 196, 86), rgb(100, 161, 65));
   background:         linear-gradient(rgb(126, 196, 86), rgb(100, 161, 65));
 
+  // &[data-moreinfo=CUPCAKE] {
+  //   background: rgb(255,150,24);
+  //   background: -webkit-linear-gradient(rgb(255,150,24), rgb(255, 140, 0));
+  //   background:    -moz-linear-gradient(rgb(255,150,24), rgb(255, 140, 0));
+  //   background:         linear-gradient(rgb(255,150,24), rgb(255, 140, 0));
+  // }
+
   .title {
     color: $title-color;
   }
