@@ -3,14 +3,14 @@ $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
   //Dashing.gridsterLayout('[{"col":2,"row":1},{"col":1,"row":1},{"col":3,"row":1},{"col":2,"row":2},{"col":3,"row":2},{"col":1,"row":2},{"col":5,"row":1},{"col":4,"row":2},{"col":2,"row":3}]')
   Dashing.widget_base_dimensions = [1880, 1040]
-  Dashing.widget_margins = [10, 10]
+  Dashing.widget_margins = [0, 0]
   Dashing.numColumns = 1
 });
 </script>
 
 <% content_for(:title) { "Tuenti tuits" } %>
 <div class="gridster">
-  <ul style="margin-top: -10px">
+  <ul style="margin: 15px 0 0 20px">
 
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1" class="twitter-only">
       <div data-id="twitter_mentions" data-view="Comments" style="background-color: #58a8e2;" data-moreinfo="Tweets tagged with #tuenti"></div>
