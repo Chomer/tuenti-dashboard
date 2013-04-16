@@ -246,6 +246,11 @@ h3 {
   padding-top: 5px;
 }
 
+// Widget with only tweets
+.twitter-only h3 { font-size: 1.5em; margin-bottom: 1em; }
+.twitter-only .widget-comments .comment { font-size: 2em; }
+.twitter-only .widget-comments .name { padding-left: .5em; }
+
 
 // ----------------------------------------------------------------------------
 // Clearfix
