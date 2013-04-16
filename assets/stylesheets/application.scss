@@ -247,9 +247,13 @@ h3 {
 }
 
 // Widget with only tweets
-.twitter-only h3 { font-size: 1.5em; margin-bottom: 1em; }
-.twitter-only .widget-comments .comment { font-size: 2em; }
-.twitter-only .widget-comments .name { padding-left: .5em; }
+.twitter-only .widget-comments { padding: 3em; }
+.twitter-only h3 { font-size: 2em; margin-bottom: 1.5em; }
+  .twitter-only h3 > * { vertical-align: middle; }
+  .twitter-only h3 > span { color: rgba(255,255,255,.75); }
+
+  .twitter-only .widget-comments .comment { font-size: 3em; }
+  .twitter-only .widget-comments .name { padding-left: .5em; }
 
 
 // ----------------------------------------------------------------------------
